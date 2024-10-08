@@ -1,0 +1,135 @@
+.cont {
+    display: flex;
+}
+
+.box {
+    /* border: 2px solid red; */
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.main {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.main img {
+    width: auto;
+    height: 60%;
+    margin: auto;
+    margin-top: -200px;
+}
+
+.main p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inp {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.inp input {
+    border: 0.5px solid rgb(194, 192, 190);
+    outline: 0.5px solid rgb(194, 192, 190);
+    width: 33%;
+    height: 33px;
+    padding: 4px 11px;
+    border-radius: 4px;
+}
+
+.inps {
+    display: flex;
+    flex-direction: column;
+}
+
+.inps button {
+    width: 120px;
+    background-color: #662671;
+    margin-top: 22px;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+}
+
+.cancel_button {
+    background-color: transparent; /* Transparent background */
+    border: 1px solid black;       /* 1px solid black border */
+    border-radius: 25px;           /* Border radius of 25px */
+    color: black;                   /* Text color */
+    width: 120px;                  /* Same width as Save button */
+    height: 40px;  
+    margin-right: 25px;  
+              /* Same height as Save button */
+    cursor: pointer;                /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Transition effect */
+}
+
+.cancel_button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light background on hover */
+}
+
+.save_button {
+    background-color: #662671;      /* Save button color */
+    color: white;                   /* Save button text color */
+    border: none;                   /* Remove border */
+    border-radius: 25px;           /* Border radius of 25px */
+    width: 120px;                  /* Same width as Cancel button */
+    height: 40px;                  /* Same height as Cancel button */
+    cursor: pointer;                /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.save_button:hover {
+    background-color: #5a1f5e; /* Darker shade on hover */
+}
+
+    
+
+
+.buts {
+    margin: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box3 {
+    /* width: 40%; */
+    /* margin: auto; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    margin: auto;
+}
+
+.form1 div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.form1 div input {
+    margin-top: 10px;
+}
+.box3 h2{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 90px;
+}

@@ -1,0 +1,53 @@
+.top{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.left{
+    /* border: 1px solid red; */
+    width: 18%;
+    height: 70px;
+    margin-left: 20px;
+    display: flex;
+}
+.left svg{
+    width: 43px;
+    height: 43px;
+    margin: 10px;
+}
+.left p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.mid{
+    /* border: 1px solid red; */
+    width: 55%;
+    height: 33px;
+}
+.mid input{
+    border: 0.5px solid #969191;
+    outline: 0.5px solid #a19e9e;
+    height: 28px;
+    padding: 4px 8px;
+    width: 45%;
+    border-radius: 4px;
+    width: 90%;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.right button {
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    background-color: #662671;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    margin-top: 12px;
+    margin-left: 112px;
+}
+

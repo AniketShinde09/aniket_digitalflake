@@ -1,0 +1,59 @@
+.box {
+    border: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 90vh;
+    background-color: #F4F4F4;
+}
+
+.blocks {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    height: 100%;
+}
+
+.block {
+    /* border: 1px solid green; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.block:hover {
+    background-color: #F4EDAF;
+    color:white
+}
+
+.block:hover svg {
+    color:white
+}
+
+.block svg:first-child {
+    width: 36px;
+    height: 80px;
+    margin-top: -18px;
+    margin-left: 15px;
+    color: black;
+}
+
+.block svg:last-child {
+    color: rgb(136, 132, 127);
+    width: 18px;
+    height: 80px;
+    margin-top: -18px;
+    margin-right: 12px;
+}
+
+.block p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 7px;
+    
+    color: black;
+}
+.active {
+    background-color: #F4EDAF; /* Active page background color */
+    font-weight: bold; /* Optional: Make the active page text bold */
+}

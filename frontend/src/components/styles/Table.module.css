@@ -1,0 +1,97 @@
+/* Updated Table Styles */
+.table {
+    width: 100%;
+    border-collapse: separate; /* Allows spacing between rows */
+    border-spacing: 0 10px; /* Adds 10px gap between rows */
+}
+
+.table th,
+.table td {
+    background-color: #f1f1f1; /* Background color instead of border */
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: center;
+    color: #5b5555;
+    font-weight: 500;
+}
+
+.table th {
+    background-color: #FFF8B7; /* Light yellow background for header */
+    cursor: pointer;
+    padding: 15px; /* Increased padding for a cleaner look */
+}
+
+.table tr {
+    border-radius: 8px; /* Rounded corners for rows */
+    overflow: hidden; /* Ensures the rounded corners are visible */
+}
+
+.table tr:hover {
+    background-color: #eaeaea; /* Slightly darker background on hover */
+}
+
+/* Button and Form Styling */
+.but {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.editHeader {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.editHeader button {
+    width: 44px;
+    height: 44px;
+    font-size: 44px;
+}
+
+.editHeader h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.editForm {
+    display: flex;
+    margin: auto;
+    width: 96%;
+    justify-content: space-evenly;
+}
+
+.editForm input {
+    width: 80%;
+    margin-right: 5%;
+}
+
+.editActions {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.editActions button {
+    width: 120px;
+    background-color: #662671;
+    color: white;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin-left: -1%;
+}
+
+.formGroup input {
+    width: 100%;
+}

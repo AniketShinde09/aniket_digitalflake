@@ -1,0 +1,35 @@
+/* Spinner.module.css */
+.spinnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f0f0f0; /* Softer background */
+}
+
+.spinner {
+    border: 8px solid rgba(243, 243, 243, 0.7); /* Light grey with transparency */
+    border-top: 8px solid #ff4500; /* OrangeRed */
+    border-right: 8px solid #1e90ff; /* DodgerBlue */
+    border-bottom: 8px solid #32cd32; /* LimeGreen */
+    border-left: 8px solid #6a0dad; /* Purple */
+    border-radius: 50%;
+    width: 40px; /* Big size */
+    height: 40px;
+    animation: spin 1.2s ease-in-out infinite; /* Smooth animation */
+    box-shadow: 0 0 15px rgba(106, 13, 173, 0.6); /* Subtle glow */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 20px; /* Slightly larger text */
+    color: #6a0dad; /* Purple for consistency */
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Soft text shadow for a polished look */
+}

@@ -1,0 +1,21 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full-screen height */
+    background-color: #f8d7da; /* Light red background for error */
+    color: #721c24; /* Dark red text for error message */
+    padding: 20px;
+    text-align: center;
+}
+
+.errorMessage {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.errorDescription {
+    font-size: 1.2rem;
+}

@@ -18,7 +18,7 @@ This project is developed as part of the Digitalflake ‘8 hrs Job Hackathon 202
 ## Installation and Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/digitalflake-hackathon.git
+   git clone https://github.com/AniketShinde09/aniket_digitalflake
    ```
 
 2. Navigate to the project directory:
